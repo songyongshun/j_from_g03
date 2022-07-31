@@ -247,7 +247,7 @@ class components
 	}
 
 
-	void justPrintS(char * namefile) {
+	void justPrintS(char const* namefile) {
 	    ofstream out(namefile);
 	    if (!out) {
 		cerr << "***ERROR*** : Can't open " << namefile << endl;
@@ -260,7 +260,7 @@ class components
 		out << endl;
 	    }
 	}
-	void justPrintMOs(char * namefile) {
+	void justPrintMOs(char const* namefile) {
 	    ofstream out(namefile);
 	    if (!out) {
 		cerr << "***ERROR*** : Can't open " << namefile << endl;
@@ -273,7 +273,7 @@ class components
 		out << endl;
 	    }
 	}
-	void justPrintEvls(char * namefile) {
+	void justPrintEvls(char const* namefile) {
 	    ofstream out(namefile);
 	    if (!out) {
 		cerr << "***ERROR*** : Can't open " << namefile << endl;
